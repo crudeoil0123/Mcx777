@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MCX Commodity Community</title>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2415842912227895');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2415842912227895&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{
+background:linear-gradient(-45deg,#020b16,#0a2744,#0d4b6d,#08121f);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+color:#fff;
+overflow:hidden;
+}
+@keyframes bg{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+.bubble{
+position:absolute;
+bottom:-100px;
+width:15px;
+height:15px;
+background:#ff9900;
+border-radius:50%;
+opacity:.3;
+animation:float 12s linear infinite;
+}
+@keyframes float{
+0%{transform:translateY(0)}
+100%{transform:translateY(-120vh)}
+}
+.container{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+.card{
+max-width:700px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+padding:35px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 0 30px rgba(0,183,255,.3);
+animation:up 1.2s;
+}
+@keyframes up{
+from{opacity:0;transform:translateY(50px)}
+to{opacity:1;transform:translateY(0)}
+}
+h1{
+font-size:42px;
+color:#ffd36a;
+animation:glow 2s infinite alternate;
+}
+@keyframes glow{
+from{text-shadow:0 0 10px #ff9900}
+to{text-shadow:0 0 25px #00c3ff}
+}
+.typing{
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid #00c3ff;
+width:0;
+margin:15px auto;
+animation:type 5s steps(45,end) forwards;
+}
+@keyframes type{
+to{width:100%}
+}
+p{
+margin:20px 0;
+line-height:1.7;
+color:#ddd;
+}
+.btn{
+display:inline-block;
+padding:14px 35px;
+background:linear-gradient(90deg,#ff9800,#00b7ff);
+color:#fff;
+text-decoration:none;
+font-weight:bold;
+border-radius:40px;
+transition:.3s;
+box-shadow:0 0 20px rgba(0,183,255,.5);
+}
+.btn:hover{
+transform:scale(1.06);
+}
+.disclaimer{
+margin-top:25px;
+font-size:12px;
+color:#bfbfbf;
+line-height:1.5;
+}
+</style>
+</head>
+
+<body>
+
+<script>
+for(let i=0;i<35;i++){
+let b=document.createElement("div");
+b.className="bubble";
+b.style.left=Math.random()*100+"vw";
+b.style.animationDuration=(6+Math.random()*8)+"s";
+b.style.animationDelay=Math.random()*6+"s";
+document.body.appendChild(b);
+}
+</script>
+
+<div class="container">
+<div class="card">
+
+<h1>MCX Commodity Community</h1>
+
+<h2 class="typing">
+Crude Oil • Gold • Silver • Copper • Natural Gas
+</h2>
+
+<p>
+Professional market insights, educational commodity updates,
+technical analysis and timely market information.
+</p>
+
+<a class="btn" href="https://telegram.dog/+YjcqTgUa3KNjYjU9">
+🚀 Join Telegram
+</a>
+
+<div class="disclaimer">
+<strong>Risk Disclosure:</strong><br>
+Commodity and derivatives trading involves risk. This page is intended for educational and informational purposes only and should not be interpreted as a guarantee of profits or personalized investment advice. Please evaluate risks carefully before making trading decisions.
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
